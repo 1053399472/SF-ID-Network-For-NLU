@@ -17,7 +17,7 @@ def createVocabulary(input_path, output_path, no_pad=False, no_unk=False):
             words = line.split()
 
             for w in words:
-                if w == '_UNK':
+                # if w == '_UNK':
                 if str.isdigit(w) == True:
                     w = '0'
                 if w in vocab:

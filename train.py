@@ -35,7 +35,7 @@ parser.add_argument("--decay_rate", type=float, default=0.9, help="decay_rate.")
 parser.add_argument("--dataset", type=str, default='atis', help="""Type 'atis' or 'snips' to use dataset provided by us or enter what ever you named your own dataset.
                 Note, if you don't want to use this part, enter --dataset=''. It can not be None""")
 parser.add_argument("--model_path", type=str, default='./model', help="Path to save model.")
-parser.add_argument("--vocab_path", type=str, default='./vocab', help="Path to vocabulary files.")
+parser.add_argument("--vocab_path", type=str, default='vocab', help="Path to vocabulary files.")
 parser.add_argument("--train_data_path", type=str, default='train', help="Path to training data files.")
 parser.add_argument("--test_data_path", type=str, default='test', help="Path to testing data files.")
 parser.add_argument("--valid_data_path", type=str, default='valid', help="Path to validation data files.")
